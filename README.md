@@ -15,7 +15,7 @@ I have plans to have Charmstone account for this itself, but until then there ar
 1. Change the icon like you would for any mac app. Right click on the app and select "Get Info" drag and drop a new icon onto the icon there.
 2. Give the app a color tag in Finder and add it into Charmstone by selecting "Open File or Folder" in the prefs window.
 
-### Hidden configuration (Terminal commands)
+## Hidden configuration (Terminal commands)
 Restart the app after executing a terminal command.
 
 #### Disable haptic feedback
