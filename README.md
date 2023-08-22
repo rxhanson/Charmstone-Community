@@ -15,6 +15,26 @@ I have plans to have Charmstone account for this itself, but until then there ar
 1. Change the icon like you would for any mac app. Right click on the app and select "Get Info" drag and drop a new icon onto the icon there.
 2. Give the app a color tag in Finder and add it into Charmstone by selecting "Open File or Folder" in the prefs window.
 
+## Using URLs to show and close the Charmstone window
+
+Charmstone can also be controlled via URLs:
+
+Show the Charmstone window:
+```
+charmstone://show
+```
+Show the Charmstone window with a specified appear distance (override min dist to appear)
+```
+charmstone://show?appearDist=0
+```
+Close the Charmstone window
+```
+charmstone://close
+```
+Close the Charmstone window without executing the current selection
+```
+charmstone://close?executing=false
+```
 ## Hidden configuration (Terminal commands)
 Restart the app after executing a terminal command.
 
