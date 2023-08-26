@@ -4,7 +4,7 @@ Scripts, Localization, and Discussion for the Charmstone App
 [Charmstone](https://charmstone.app) is a closed source macOS app for quickly launching and switching applications. It's a convenient way to execute scripts (in the form of applications), and this repository is primarily meant to be a place where users can share their scripts or report bugs and ask questions.
 
 ## About Scripts
-To convert a script into an app that can be loaded into Charmstone, Open the script in Script Editor and export it as an Application.
+To convert a script into an app that can be loaded into Charmstone, Open the script in Script Editor and export it as an Application. You can also export Automator workflows as Applications, which you can launch via Charmstone.
 
 ### Script FAQs
 #### Why can't Charmstone just run a script in .applescript, .scpt, or another kind of format?
