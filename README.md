@@ -8,7 +8,7 @@ To convert a script into an app that can be loaded into Charmstone, Open the scr
 
 ### Script FAQs
 #### Why can't Charmstone just run a script in .applescript, .scpt, or another kind of format?
-Charmstone is sandboxed so that it can be distributed on the Mac App Store, and being sandboxed means that it can't just execute arbitrary scripts. App launching comes with a layer of security by being behind gatekeeper. This layer of security isn't really useful in that it's unlikely that any users would be using Charmstone to run scripts found off the internet with malicious behavior, but wrapping a script in .app format still opens the door for anything you wan to run (albeit with an extra step).
+Charmstone is sandboxed so that it can be distributed on the Mac App Store, and the sandbox adds an extra layer of security. Any script can be turned into an App for use with Charmstone using either Script Editor or Automator.
 
 #### Scripts exported as apps all have the same icon. Can Charmstone do anything about this?
 I have plans to have Charmstone account for this itself, but until then there are two things that you can do:
