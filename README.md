@@ -15,6 +15,10 @@ I have plans to have Charmstone account for this itself, but until then there ar
 1. Change the icon like you would for any mac app. Right click on the app and select "Get Info" drag and drop a new icon onto the icon there.
 2. Give the app a color tag in Finder and add it into Charmstone by selecting "Open File or Folder" in the prefs window.
 
+## Configuring Charmstone with Sonoma webapps
+
+After adding a website to the dock, it will appear in your ~/Applications directory (not to be confused with your /Applications directory). Open the Charmstone preferences window and drag and drop the webapp from ~/Applications to your desired location in Charmstone.
+
 ## Using URLs to show and close the Charmstone window
 
 Charmstone can also be controlled via URLs:
