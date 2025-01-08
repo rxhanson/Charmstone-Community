@@ -49,3 +49,7 @@ There is a small haptic feedback click that happens on the trackpad when you mov
 ```
 defaults write com.knollsoft.Charmstone hapticFeedback -int 2
 ```
+
+#### Open Charmstone with a mouse button
+
+defaults write com.knollsoft.Charmstone reticleMouseButton -int 3
